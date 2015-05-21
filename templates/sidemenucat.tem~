@@ -1,0 +1,4 @@
+    <div class="side_menu_header"><a href="[linkcat]">[catname]</a></div>
+      <div class="side_menu_group">
+        [subcats]
+      </div>

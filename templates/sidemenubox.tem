@@ -1,0 +1,7 @@
+   <div id="SideMenu" >
+   <div id="SideMenuSpacer" style="height: 50px;">
+   </div>
+   <ul id="nav">
+    [menu]
+	</ul>
+  </div>

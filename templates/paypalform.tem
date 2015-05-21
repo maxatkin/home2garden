@@ -1,0 +1,13 @@
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  <input type="hidden" name="cmd" value="_cart">
+  <input type="hidden" name="upload" value="1">
+  <input type="hidden" name="business" value="home2gardenltd@yahoo.co.uk">
+  <input type="hidden" name="currency_code" value="GBP">
+  <input type="hidden" name="no_note" value="1">
+  <input type="hidden" name="url_image" value="[URLPATH]images/newlogo.jpg">
+  <input type="hidden" name="return" value="http://www.hometwogarden.co.uk/paid.php">
+  <input type="hidden" name="cancel_return" value="[URLPATH]shopping.php?paypalcancel=true">
+  <input type="hidden" name="shipping_1" value="[shipping]">
+  [paypalfields]
+  <input type="submit" class="submit_button" style="float:right;" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" value = "Finish Order at PayPal!">
+</form>

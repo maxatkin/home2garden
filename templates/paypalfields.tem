@@ -1,0 +1,6 @@
+<input type="hidden" name="item_name_[number]" value="[name]">
+<input type="hidden" name="amount_[number]" value="[price]">
+<input type="hidden" name="cn" value="Alternative Delivery Address:">
+<input type="hidden" name="quantity_[number]" value="[quantity]">
+<!--<input type="hidden" name="shipping_[number]" value="[shipping]">-->
+<input type="hidden" name="handling_[number]" value="0.00">

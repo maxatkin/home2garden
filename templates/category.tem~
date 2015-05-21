@@ -1,0 +1,9 @@
+    <div class="category_box">
+      <div class="category_header_box">
+      [name]
+      </div>
+      <img src="[image]"/>
+      <div class="category_text_box">
+      [description]
+      </div>
+    </div>

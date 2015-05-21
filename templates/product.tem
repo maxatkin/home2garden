@@ -1,0 +1,16 @@
+    <div class = "left_image_box">
+    [image]<br/>
+    Click image to enlarge
+    </div>
+    <div class = "product_text_box">
+      <h1>[name]</h1>
+      [description] <p/>
+      <form action="[URLPATH]shopping.php" method="post">
+        Please select the type and quantity you would like to order.<p/>
+        <table border = 0>
+        [price]
+        </table><p/>
+        <input type="hidden" name="product" value="[id]"/>
+        <input class="submit_button" type="submit" name="Order" value="Add To Order"/>
+      </form>
+    </div>

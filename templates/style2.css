@@ -1,0 +1,450 @@
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: sans-serif, verdana, arial, helvetica;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+img{
+  border-style: none;
+}
+
+
+a{
+  color: #409040;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited{
+  color: #409040;  
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #80b080;
+}
+
+.ahem {
+	display: none;
+	}
+strong, b {
+	font-weight: bold;
+	}
+p {
+	font-size: 12px;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+	}
+
+/* weird ie5win bug: all line-height to font-size ratios must agree or box gets pushed around. UPDATE: this has turned out to be very rare. my current recommendation is IGNORE this warning. at the moment i'm leaving it in only in case the issue turns up again. possibly the original bug in march 2001 was caused by an unusual combination of factors, although this solved it at the time.*/
+
+h1 {
+	font-size: 24px;
+	line-height: 44px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h2 {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h3 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h4 {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h5 {
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h6 {
+	font-size: 10px;
+	line-height: 18px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+
+table{
+  margin: 0.2em 0em 0.2em 0em;
+  width: 100%;
+  background-color:#FFF;
+  border-collapse:collapse;
+}
+
+caption{
+  text-align: left;
+  font-size: 1em;
+  color: #107010;
+}
+
+input.submit_button{
+  margin: 0px;
+  padding: 0px;
+
+  background-color: #e0ffe0;
+  border-style: solid;
+  border-width: 1px;
+  color: #80b080;
+}
+
+input.text_input{
+  margin: 0px;
+  padding: 0px;
+
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  color: #80b080;
+}
+	
+#CentreContainer{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background-color:#ffffff;
+
+  width: 1030px; /* ie5win fudge begins */
+  voice-family: "\"}\"";
+  voice-family:inherit;
+  width: 1000px;
+}
+html>body #ContentContainer {
+	width: 1000px; /* ie5win fudge ends */
+	}
+
+#ContentContainer{
+  margin: 0px 0px 0px 0px;
+  padding: 0.5em;
+
+
+  background-color: #ffffff;
+  border-style: solid;
+  float: left;
+  border-color: #e0ffe0;
+
+  width: 630px; /* ie5win fudge begins */
+  voice-family: "\"}\"";
+  voice-family:inherit;
+  width: 600px;
+}
+html>body #ContentContainer {
+	width: 600px; /* ie5win fudge ends */
+	}
+
+#SideMenu{
+  margin: 0em 0.5em 0em 0em;
+  padding: 0em;
+  float: left;
+
+  background-color: #ffffff;
+  border-style: none;
+  width: 200px; /* ie5win fudge begins */
+  voice-family: "\"}\"";
+  voice-family:inherit;
+  width: 170px;
+}
+html>body #SideMenu {
+	width: 170px; /* ie5win fudge ends */
+	}
+
+
+#BlockContainer{
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+  border-style:none;
+}
+
+#Header{
+  margin: 0em;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  padding: 0em;
+  float: left;
+  background-color: #d1f5d1;
+  border-style: none;
+	width: 1030px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 1000px;
+	}
+}
+html>body #Header {
+	width: 1000px; /* ie5win fudge ends */
+	}	
+
+#LogoContainer{
+  margin: 0em;
+  margin-right: 0em;
+  padding: 0.1em;
+  float: left;
+  border-style: none;
+}
+
+#TagContainer{
+  margin: 0px;
+  margin-left: 12px;
+  padding: 0px;
+  float: left;
+  border-style: none; 
+  text-align: center;
+  color: #82b17d;
+	width: 290px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 260px;
+	}
+}
+html>body #TagContainer {
+	width: 260px; /* ie5win fudge ends */
+	}
+
+#SmallMenu{
+  margin: 5px 1px 0px 1px;
+  padding: 3px 0px 1px 0em;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #80b080;
+}
+
+
+#NoticeBoard{
+  margin-left: 5px;
+  padding: 0px;
+  float: left;
+  border-style: none;
+  background-color: #ffffff;
+}
+
+tr.headrow{
+  border-top: 0.1em;
+  border-bottom: 0.1em;
+  border-left: 0em;
+  border-right: 0em;
+  border-style: solid;
+  border-color: #ffffff;
+  font-size: 1em;
+  background-color: #d5ffb5;
+  color: #107010;
+}
+
+label.address{
+  font-size: 1em;
+  color: #101010;
+}
+
+tr.row1{
+  background-color: #e0ffe0;
+}
+
+tr.row2{
+  background-color: #d0ffd0;
+}
+
+td.basket{
+  padding: 5px;
+}
+div.finishmsg{
+  margin: 0em;
+  padding: 0.5em;
+
+  border-style: none none solid none;
+  border-color: #d1f5d1;
+  font-size: 1em;
+
+  background-color: #e0ffe0;
+  color: #107010;
+}
+div.notice{
+  margin: 0em;
+  padding: 0.5em;
+  background-color: #ffffff;
+  border-style: solid;
+  float: left;
+  border-color: #e0ffe0;
+}
+
+div.menu_element{
+  margin: 0em 10px 0em 0em;
+  padding: 0em;
+  float: left;
+  border-style: none;
+  font-size: 0.7em;
+}
+
+div.side_menu_header{
+  margin: 0em;
+  padding: 0.5em;
+
+  border-style: none none solid none;
+  border-color: #d1f5d1;
+  font-size: 1em;
+
+  background-color: #d5ffb5;
+  color: #107010;
+}
+
+div.side_menu_group{
+  margin: 0em 0em 0.3em 0em;
+  padding: 0.3em 0.2em 0.3em 0.2em;
+
+  background-color: #e0ffe0;
+  font-size: 0.8em;
+
+  border-style: none;
+  border-bottom: solid;
+  border-color: #d1f5d1;
+}
+
+div.side_menu_group a{
+  display: block;
+  margin: 0em;
+  padding: 0.3em 0em 0.3em 0em;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: #e0ffe0;
+
+  width: 100%;
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+div.side_menu_group a:hover {
+  color: black;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: #d1f5d1;
+  background-color: #fffff0;
+}
+
+div.side_menu_indent{
+  margin: 0em 0em 0em 15px;
+  padding 0em;
+}
+
+
+div.frame{
+  margin: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+div.content_text_box{
+  margin: 0em;
+  padding: 1em;
+  background-color: #f5f5ff;
+  text-align: justify;
+  width: 100px;
+  float: left;
+  border-style: none;
+
+  width: 600px; /* ie5win fudge begins */
+  voice-family: "\"}\"";
+  voice-family:inherit;
+  width: 570px;
+}
+html>body div.content_text_box {
+	width: 570px; /* ie5win fudge ends */
+	}
+
+
+div.left_image_box{
+  margin: 0em;
+  padding: 0em;
+  padding-right: 1em;
+  float: left;
+  background-color: #ffffff;
+  border-style: none;
+}
+
+div.right_image_box{
+  margin: 0em;
+  padding: 0em;
+  padding-left: 1em;
+  float: right;
+  background-color: #ffffff;
+  border-style: none;
+}
+
+div.category_box{
+  margin: 0.5em;
+  margin-bottom: 15px;
+  padding: 0px;
+  float: left; 
+
+  width: 180px;
+  
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d1f5d1;
+  background-color: #d5ffb5;
+}
+
+div.category_header_box{
+  margin: 0px;
+  padding: 5px;
+
+  border-style: none;
+  font-size: 1em;
+  color: #107010;
+  background-color: #d5ffb5;
+}
+
+div.category_header_box a{
+  font-weight: normal;
+}
+
+div.category_text_box{
+  margin: 0px;
+  padding: 5px;
+  border-style: none;
+  font-size: 0.8em;
+  text-align: justify;
+  background-color: #d5ffb5;
+}
+
+div.product_text_box{
+  margin: 0em;
+  padding: 5px 5px 5px 10px;
+  float: left;
+
+  width: 350px;
+
+  background-color: #ffffff;
+  border-style: none;
+  font-size: 0.8em;
+  text-align: justify;
+
+
+}
+
+

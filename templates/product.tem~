@@ -1,0 +1,13 @@
+    <div class = "left_image_box">
+      <img src = "[image]" />
+    </div>
+    <div class = "product_text_box">
+      <h1>[name]</h1>
+      [description] <p/>
+      Price: [price] <p/>
+      <form action="[URLPATH]" method="post">
+        <input style="width: 30px;" type="text" name="quantity" value="1"/>
+        <input type="hidden" name="product" value="[product]">
+        <input type="submit" name="Order" value="Add To Order"/>
+      </form>
+    </div>

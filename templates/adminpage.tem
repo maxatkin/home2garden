@@ -1,0 +1,28 @@
+<h1>Welcome to the Admin page</h1><p/>
+Here you may add, update or delete products, subcategories and categories. A category will appear on the menu bar on the left as 
+a large heading. A Subcategory will appear as one of the smaller headings. All categories are displayed on the front page and therefore
+you should not make too many, and keep them fairly general! For instance Categories could be Wind Sculpture, Glass Products and Other Products
+and then you could have Winddancers as a subcategory of Wind Sculptures.<p/>
+
+<h1>Actions</h1><p/>
+<a href="[URLPATH]admin.php?addproduct=true">Add Product</a><br/>
+<a href="[URLPATH]admin.php?editproduct=true">Edit Product</a><br/>
+<a href="[URLPATH]admin.php?deleteproduct=true">Delete Product</a><p/>
+
+<a href="[URLPATH]admin.php?addcategory=true">Add Category</a><br/>
+<a href="[URLPATH]admin.php?editcategory=true">Edit Category</a><br/>
+<a href="[URLPATH]admin.php?deletecategory=true">Delete Category</a><p/>
+
+<a href="[URLPATH]admin.php?addsubcategory=true">Add SubCategory</a><br/>
+<a href="[URLPATH]admin.php?editsubcategory=true">Edit SubCategory</a><br/>
+<a href="[URLPATH]admin.php?deletesubcategory=true">Delete SubCategory</a><p/>
+
+<a href="[URLPATH]admin.php?adduser=true">Add User</a><p/>
+
+<a href="[URLPATH]admin.php?addfile=true">Add Trade Document</a><br/>
+<a href="[URLPATH]admin.php?delfile=true">Delete Trade Document</a><p/>
+
+Number of visitors: [number]<p/>
+
+Last Ten Referers:<br/>
+[referers]

@@ -1,0 +1,61 @@
+[errorbox]
+
+<form method="post" action="[URLPATH]shopping.php">
+<table>
+<caption>To complete your order we require the following information:<p/></caption>
+  <tr class="row1">
+  <td><label class="address" for="FirstName">*First Name/Company Name : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="FirstName" name="firstname" value="[deffirstname]"/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="LastName">Last Name : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="LastName" name="lastname" value="[deflastname]"/></td>
+  </tr>
+
+  <tr class="row1">
+  <td><label class="address" for="Property">*Property Name or Number : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Property" name="property" value="[defproperty]"/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="Street">*Street : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Street" name="street" value="[defstreet]"/></td>
+  </tr>
+
+  <tr class="row1">
+  <td><label class="address" for="Town">*Town : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Town" name="town" value="[deftown]"/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="Province">State/County/Province : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Province" name="province" value="[defprovince]"/></td>
+  </tr>
+
+  <tr class="row1">
+  <td><label class="address" for="Postcode">Postcode/Zip : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Postcode" name="postcode" value="[defpostcode]"/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="Country">*Country : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Country" name="country" value="[defcountry]"/></td>
+  </tr>
+
+  <tr class="row1">
+  <td><label class="address" for="Telephone">*Telephone Number : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Telephone" name="telephone" value="[deftelephone]"/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="Email">E Mail : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Email" name="email" value="[defemail]"/></td>
+  </tr>
+
+</table>
+Fields marked with a * are required.
+  <div class="submit_button">
+    <input class="submit_button" type="submit" name="confirm" value="Continue to Confirm Order"/>
+  </div>
+</form>

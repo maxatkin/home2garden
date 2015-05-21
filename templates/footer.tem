@@ -1,0 +1,32 @@
+</div>
+<div style="float: left; ">
+<hr style="color: #9EBDEB;" />
+<table style="width: 1000px;" border="0" cellpadding="0" cellspacing="0" >
+<tr >
+<td style="width: 95px;"></td>
+<td align="center" style="height: 25px; width:800px" >
+<table border="0" cellpadding="0" cellspacing="0" width="80%" style="background: transparent;">
+<tr>
+<td width="20%" align="center" valign="top" style="font-size: small;">Tel: +44(0)1923 492947</td>
+<td width="10%"align="center" valign="top" ><img src="images/PayPal_mark_32x20.jpg" width="32" height="20" /></td>
+<td align="left" > <form method="post" action="http://www.arcavit.co.uk/h2g_2008/www/index.php">
+          <div align="center"><span class="menu_element" style="font-size: 0.8em; margin: 0px; margin-right: 10px; ">
+              <label class="address" for="searchbox">Search Products : </label>
+            <input class="text_input" style="width: 150px;" type="text" id = "searchbox" name="prodtosearch" value=""/>
+            <input class="submit_button" type="submit" name="dosearch" value="Search"/>
+            </span></div>
+      </form></td>
+<td width="20%" align="center" valign="top" style="font-size: small;" ><a href="mailto:home2gardenltd@yahoo.co.uk ">e-mail </a></td>
+</tr>
+</table>
+</td>
+<tr>
+<td style="width: 105px;"></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

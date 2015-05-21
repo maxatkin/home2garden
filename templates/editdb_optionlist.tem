@@ -1,0 +1,8 @@
+  <tr class="[rowtype]">
+  <td><label class="address" for="[name]ID">[label] : </label></td>
+  <td>
+    <select size=1 id="[name]ID" name="[name]">
+      [optionlist]
+    </select>
+  </td>
+  </tr>

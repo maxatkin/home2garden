@@ -1,0 +1,86 @@
+
+Please find below our contact details or if you would prefer, fill in the form below and we will aim to get back to you within 1 working day.
+
+  <table width="574" border="0" style="width:500px; margin-top:20px; margin-bottom:20px;  cellpadding="2" cellspacing="0" >
+    <tr>
+      <td width="72" align="left" valign="top" style="font-size:12px;">Telephone:</td>
+      <td width="485" align="left">
+      <label>+44 1923 492947</label>      </td>
+    </tr>
+    <tr>
+      <td width="72" align="left" valign="top" style="font-size:12px;">Fax: </td>
+      <td width="485" align="left">+44 1923 467372 </td>
+    </tr>
+    <tr>
+      <td width="72" align="left" valign="top" style="font-size:12px;">Email:</td>
+      <td width="485" align="left">home2gardenltd@yahoo.co.uk</td>
+    </tr>
+    <tr>
+      <td width="72" align="left" valign="top" style="font-size:12px;">Address: </td>
+      <td width="485" align="left"><label>8A Lower Road, Chorleywood, Hertfordshire, WD3 5LH, United Kingdom</label></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-size:12px;">&nbsp;</td>
+      <td align="left">&nbsp;</td>
+    </tr>
+</table>
+
+<table width="570" border="0" cellspacing="0"  style="width:500px;  cellpadding="0" >
+  <tr>
+    <td width="330"><form id="form1" name="form1" method="post" action="http://www.home2garden.co.uk/formmail.php">
+ <table width="400" border="0" style="width:300px; float:left;  cellpadding="2" cellspacing="0" >
+    <tr>
+      <td width="71" valign="top" style="font-size:12px;">Name:</td>
+      <td width="221" align="left"><label>
+        <input name="name" type="text" class="text_input" id="name" />
+      </label></td>
+    </tr>
+    <tr>
+      <td width="71" valign="top" style="font-size:12px;">Telephone:</td>
+      <td width="221" align="left"><input name="telephone" type="text" class="text_input" id="telephone" /></td>
+    </tr>
+    <tr>
+      <td width="71" valign="top" style="font-size:12px;">Email:</td>
+      <td width="221" align="left"><input name="email" type="text" class="text_input" id="email" /></td>
+    </tr>
+    <tr>
+      <td width="71" valign="top" style="font-size:12px;">Comments:</td>
+      <td width="221" align="left"><label>
+        <textarea name="comments" class="text_input" id="comments"></textarea>
+      </label></td>
+    </tr>
+    <tr>
+      <td width="71">&nbsp;</td>
+      <td width="221" align="left"><label>
+        <input type="submit" class="submit_button" name="Submit" value="Submit" />
+        <input name="recipient" type="hidden" value="contact" />
+      </label></td>
+    </tr>
+  </table> 
+    </form></td>
+    <td width="170"><a href="http://www.taskbrazil.org/" target="_blank" style=" width:0px;"><img src="images/notices/1/1.jpg" width="165" height="80" border="0" style="margin-top:25px; border:2px solid #fff; margin:0px;" target="_blank" /></a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<form action="http://www.business-post.com/scripts/wsisa.dll/ws_quickpod.html" method="get" name="form2" target="_blank" id="form2">
+    
+      Track your parcel:
+        <table width="437" border="0" cellpadding="0" cellspacing="0" bgcolor="#EFFFFF" style="font-size:12px;">
+            <tr>
+              <td width="237"><strong>Please enter your consignment number:</strong></td>
+              <td width="144"><label>
+                <input name="lc_SearchValue" type="text" class="text_input" id="lc_SearchValue" maxlength="14" />
+              </label></td>
+              <td width="56"><input type="submit" name="Submit2" value="Submit" /></td>
+            </tr>
+  </table>
+</form>
+
+

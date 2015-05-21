@@ -1,0 +1,44 @@
+  Note: Home to Garden do not take online orders. Instead an invoice will be sent to you along with instructions for completeing your order
+  <table>
+  <caption>Your order is:</caption>
+  <tr class="headrow">
+    <td class="basket">Item</td>
+    <td class="basket">Quantity</td>
+    <td class="basket">Price</td>
+  </tr>
+  [items]
+  <tr class="headrow">
+    <td class="basket"></td>
+    <td class="basket">Total:</td>
+    <td class="basket">&#xA3;[total]</td>
+  </tr>
+  </table>
+
+  <table>
+  <caption>The invoice of your order will be sent to:</caption>
+  <tr><td>First Name/Company:<td/><td>[firstname]</td></tr>
+  <tr><td>Last Name:<td/><td>[lastname]</td></tr>
+  <tr><td>Property Name/Number:<td/><td>[property]</td></tr>
+  <tr><td>Street:<td/><td>[street]</td></tr>
+  <tr><td>Town:<td/><td>[town]</td></tr>
+  <tr><td>County/State/Province:<td/><td>[province]</td></tr>
+  <tr><td>Postcode/Zipcode:<td/><td>[postcode]</td></tr>
+  <tr><td>Country:<td/><td>[country]</td></tr>
+  <tr><td>Telephone:<td/><td>[telephone]</td></tr>
+  <tr><td>Email:<td/><td>[email]</td></tr>
+  </table>
+  <form method="post" action="[URLPATH]shopping.php">
+  <input type="hidden" name="firstname" value="[firstname]"/>
+  <input type="hidden" name="lastname" value="[lastname]"/>
+  <input type="hidden" name="property" value="[property]"/>
+  <input type="hidden" name="street" value="[street]"/>
+  <input type="hidden" name="town" value="[town]"/>
+  <input type="hidden" name="province" value="[province]"/>
+  <input type="hidden" name="postcode" value="[postcode]"/>
+  <input type="hidden" name="country" value="[country]"/>
+  <input type="hidden" name="telephone" value="[telephone]"/>
+  <input type="hidden" name="email" value="[email]"/>
+  
+  <input class="submit_button" type="submit" name="finish" value="Place Order"/>
+  
+  </form>

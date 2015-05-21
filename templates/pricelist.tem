@@ -1,0 +1,4 @@
+<tr>
+  <td><label for="[id]">[name] [description] : &#xA3;[price]  </label></td> 
+  <td><input class="text_input" style="width: 30px;" type="text" id="[id]" name="[id]" value="0"/></td>
+</tr>

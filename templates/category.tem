@@ -1,0 +1,14 @@
+    <div class="category_box">
+      <div class="category_header_box">
+      <a href="[link]">[name]</a> 
+      </div>
+      [image]
+
+      <div class="category_text_box">
+	  [price]
+	  <!--
+      [description]
+	  -->
+      </div>
+
+    </div>

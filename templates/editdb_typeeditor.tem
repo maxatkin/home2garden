@@ -1,0 +1,50 @@
+<p/>
+<table>
+<tr class="row1">
+  <td>Name</td>
+  <td>Description</td>
+  <td>Price</td>
+  <td>Price Type</td>
+  <td></td>
+</tr>
+[currenttypes]
+</table>
+<p/>
+<table>
+  <tr class="row2">
+  <td><input class="submit_button" type="submit" name="deltype" value="Delete Selected Type"/></td>
+  <td></td>
+  </tr>
+
+  <tr>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr class="row1">
+  <td><label class="address" for="TypeName">Product type name : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="TypeName" name="typename" value="[deftypename]"/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="TypeDesc">Product type description : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="TypeDesc" name="typedesc" value="[deftypedesc]"/></td>
+  </tr>
+
+  <tr class="row1">
+  <td><label class="address" for="TypePrice">Product type price : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="TypePrice" name="typeprice" value="[deftypeprice]"/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="TypeBuyer">Retail or Trade : </label></td>
+  <td>Retail:<input type="radio" id="TypeBuyer" name="typebuyer" value="retail" checked/> <br/>
+      Trade: <input type="radio" id="TypeBuyer2" name="typebuyer" value="trade"/></td>
+  </tr>
+
+  <tr class="row1">
+  <td><input class="submit_button" type="submit" name="addtype" value="Add New Product Type"/></td>
+  <td><input type="hidden" name="priceid" value="[priceid]"/></td>
+  </tr>
+
+
+</table>

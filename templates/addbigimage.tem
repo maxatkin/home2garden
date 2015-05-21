@@ -1,0 +1,15 @@
+<p/>
+Current big picture:<br>
+[currentbigpicture]
+<p/>
+
+<table>
+  <tr class="row1">
+  <td><label class="address" for="ProductImageBig">Filename : </label></td>
+  <td><input class="address" style="width: 150px;" type="file" id="ProductImageBig" name="prodimage_big" value="defprodimage2"/></td>
+  </tr>
+  <tr class="row2">
+  <td><input class="submit_button" type="submit" name="addimagebig" value="Set Big Image to File Selected"/></td>
+  <td></td>
+  </tr>
+</table>

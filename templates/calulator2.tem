@@ -1,0 +1,22 @@
+
+<div style=" width:180px; margin-left:0px; margin-top:2px; margin-bottom:10px; ">
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tr>
+    <td> <!--<div align="center" style="color:red;font-size: small;">FREE DELIVERY!</div>-->
+	<table width="100%" border="0" cellspacing="0" cellpadding="2">
+<input name="time" type="hidden" value="[items]">
+      <tr class="[rowtype]">
+        <td class="basket">Total</td>
+        <td class="basket">&#xA3;[total]</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr class="headrow">
+    <td align="center" class="basket" style="height: 30px; background-color: #1089C0;"><a href="[URLPATH]shopping.php" class="whitelink" >Go to Shopping Basket</a> </td>
+  </tr>
+   <tr >
+    <td style="margin-left:0px; margin-top:10px;font-size:13px; padding:2px; margin:2px;text-align:center;"><a href="javascript:onclick='window.external.AddFavorite(location.href,document.title);">Click here to add this page to your favorites</a></td>
+  </tr>
+</table></div>
+
+

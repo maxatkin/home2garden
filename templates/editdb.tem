@@ -1,0 +1,48 @@
+[errormsg]
+
+<form enctype="multipart/form-data" method="post" action="[URLPATH]admin.php">
+<input type="hidden" name="reload" value="true"/>
+<input type="hidden" name="objectid" value="[objectid]"/>
+<input type="hidden" name="objecttype" value="[objecttype]"/>
+<input type="hidden" name="pagetype" value="[pagetype]"/>
+<input type="hidden" name="startedit" value="true"/>
+
+<table>
+<caption>[info]</caption>
+  <tr class="row1">
+  <td><label class="address" for="Nameid">[type] Name : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Nameid" name="title" value="[defname]"/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="Descriptionid">[type] Description : </label></td>
+  <td><textarea cols="40" rows="5" style="width: 300px; height: 200px;" id="Descriptionid" name="description">[defdescription]</textarea></td>
+  </tr>
+
+  [selcat]
+
+  [selsubcat]
+</table>
+
+[typeeditor]
+
+<p/>
+Current picture:<br>
+[currentpicture]
+<p/>
+
+<table>
+  <tr class="row1">
+  <td><label class="address" for="ProductImage">Filename : </label></td>
+  <td><input class="address" style="width: 150px;" type="file" id="ProductImage" name="prodimage" value="[defprodimage]"/></td>
+  </tr>
+  <tr class="row2">
+  <td><input class="submit_button" type="submit" name="addimage" value="Set [type] Image to File Selected"/></td>
+  <td></td>
+  </tr>
+</table>
+
+[bigpicture]
+
+    <input class="submit_button" type="submit" name="finishedit" value="[action] [type]"/>
+</form>

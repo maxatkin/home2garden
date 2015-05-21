@@ -1,0 +1,7 @@
+  <tr class="[rowtype]">
+  <td>[name]</td>
+  <td>[description]</td>
+  <td>[price]</td>
+  <td>[retailtrade]</td>
+  <td><input type="checkbox" name="[retailtrade][id]" value="Delete"/></td>
+  </tr>

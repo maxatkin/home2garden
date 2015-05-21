@@ -1,0 +1,18 @@
+<form method="post" action="[URLPATH]index.php">
+[errormsg]
+<table>
+<caption>If you would like to login as a trade customer please enter a username and password.
+To become a trade customer please <a href="[URLPATH]index.php?contact=true">contact</a> our offices.</caption>
+  <tr class="row1">
+  <td><label class="address" for="Username">Username : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Username" name="username" value=""/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="Password">Password : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="password" id="Password" name="password" value=""/></td>
+  </tr>
+
+</table>
+      <input class="submit_button" type="submit" name="trylogin" value="Login"/>
+ </form>

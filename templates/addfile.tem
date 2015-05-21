@@ -1,0 +1,22 @@
+<form enctype="multipart/form-data" method="post" action="[URLPATH]admin.php">
+[errormsg]
+
+  <table>
+    <caption>Add a new trade document</caption>
+    <tr class="row1">
+    <td><label class="address" for="tradefileID">Filename : </label></td>
+    <td><input class="address" style="width: 150px;" type="file" id="tradefileID" name="tradefile"/></td>
+    </tr>
+<!--
+    <tr class="row2">
+    <td><input class="submit_button" type="submit" name="uploadfile" value="Upload File"/></td>
+    <td></td>
+    </tr>
+-->
+  </table>
+
+  <label class="address" for="descriptionID">File name: </label>
+  <input class="text_input" style="width: 300px;" type="text" id="descriptionID" name="filedesc" value=""/>
+  <input class="submit_button" type="submit" name="finishfile" value="Add Document"/>
+
+</form>

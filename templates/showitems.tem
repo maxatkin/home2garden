@@ -1,0 +1,5 @@
+<tr>
+  <td class="basket">[name]: [type] [description]</td>
+  <td class="basket">[quantity]</td>
+  <td class="basket">&#xA3;[price]</td>
+</tr>

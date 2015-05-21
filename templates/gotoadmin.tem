@@ -1,0 +1,4 @@
+<div class="finishmsg">
+  Log in successful.
+  <a href="[URLPATH]admin.php">Continue to admin page...</a>
+</div>

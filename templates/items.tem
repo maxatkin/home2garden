@@ -1,0 +1,7 @@
+<tr class="[rowtype]">
+  <td class="basket">[name]: [type] [description]</td>
+  <td class="basket">[quantity]</td>
+  <td class="basket">&#xA3;[price]</td>
+  <!--<td class="basket">&#xA3;[price] [disc_text]</td>-->
+  <td class="basket"><a href="[delete]">Remove Item</a></td>
+</tr>

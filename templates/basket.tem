@@ -1,0 +1,40 @@
+<table>
+<caption>Your shopping basket currently contains:</caption>
+<tr class="headrow">
+  <td class="basket">Item</td>
+  <td class="basket">Quantity</td>
+  <td class="basket">Price</td>
+  <td class="basket">Actions</td>
+</tr>
+[items]
+<tr class="headrow">
+  <td class="basket"></td>
+  <td class="basket">Total:</td>
+  <td class="basket">&#xA3;[total]</td>
+  <td class="basket"></td>
+</tr>
+</table>
+<p/>
+<table>
+<caption>Shipping prices:</caption>
+<tr class="headrow">
+  <td class="basket">Total Price</td>
+  <td class="basket">Shipping Cost</td>
+</tr>
+<tr class="row1">
+  <!--<td>Less than &#xA3;50</td>
+  <td>&#xA3;4.99 total</td>-->
+  <td>Any amount</td>
+  <td style="color: red; font-size: 1.1em;">FREE!</td>
+</tr>
+<!--<tr class="row2">
+  <td>Between &#xA3;50 &amp; &#xA3;100</td>
+  <td>&#xA3;6.99 total</td>
+</tr>
+<tr class="row2">
+  <td>More than &#xA3;100</td>
+  <td style="color: red; font-size: 1.1em;">FREE!</td>
+</tr>-->
+</table>
+<p/>
+[paypalform]

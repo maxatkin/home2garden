@@ -1,0 +1,6 @@
+	<li><div class="side_menu_header" [highlight] ><a href="[catlink]" >[catname]</a></div>
+     <ul><div class="side_menu_group">
+	  <div >
+	  <li> [subcats]</li>
+      </div> </div> </ul></li> 
+	  

@@ -1,0 +1,17 @@
+<form method="post" action="[URLPATH]admin.php">
+[errormsg]
+<table>
+<caption>Please enter the username and password for the new user:</caption>
+  <tr class="row1">
+  <td><label class="address" for="Username">Username : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Username" name="username" value=""/></td>
+  </tr>
+
+  <tr class="row2">
+  <td><label class="address" for="Password">Password : </label></td>
+  <td><input class="text_input" style="width: 150px;" type="text" id="Password" name="password" value=""/></td>
+  </tr>
+
+</table>
+      <input class="submit_button" type="submit" name="finishuser" value="Add User"/>
+ </form>

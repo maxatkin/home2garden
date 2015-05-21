@@ -1,0 +1,14 @@
+<form enctype="multipart/form-data" method="post" action="[URLPATH]admin.php">
+  <table>
+  <tr class="row1">
+  <td><label class="address" for="editID">Select [label] to edit : </label></td>
+  <td>
+    <select size=1 id="editID" name="objectid">
+      [optionlist]
+    </select>
+  </td>
+  </tr>
+  </table>
+  <input type="hidden" name="[gotopage]" value="true"/>
+  <input class="submit_button" style="font-size:1.5em;" type="submit" name="[action]" value="[buttonlabel] [label]"/>
+</form>

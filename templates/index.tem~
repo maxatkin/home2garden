@@ -1,0 +1,21 @@
+  <div id="ContentContainer">
+    [content]
+<!--
+    <div class="category_box">
+      <div class="category_header_box">
+      Other Products
+      </div>
+      <img src="images/other_cat.jpg"/>
+      <div class="category_text_box">
+      blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+      </div>
+    </div>
+-->
+    <div class="content_text_box">
+    [intro]
+<!--
+Home2Garden are manufacturers and distributors of home and garden products including the very popular Copper and Wooden Wind Dancers.
+These graceful wind-driven sculptures create a soothing, meditative movement, thus promoting a sense of peace and tranquility.
+-->
+    </div>
+  </div>

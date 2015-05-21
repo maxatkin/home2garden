@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  <title>Welcome to the Home to Garden Company</title>
+</head>
+<body>
+
+<div id="CentreContainer">
+  <div id="BlockContainer">
+    <div id="Header">
+      <div id="LogoContainer">
+        <a href="[URL_PATH]"><img src="images/logo5.jpg"/></a>
+      </div>
+      <div class="frame" style="float: left; margin-right: 2px">
+        <img style="float: left;" src="images/logoprod1.jpg"/>
+      </div>
+      <div class="frame" style="float: left; margin-right: 2px;">
+        <img style="float: left;" src="images/logoprod2.jpg"/>
+      </div>
+      <div class="frame" style="float: left; margin-right: 2px;">
+        <img style="float: left;" src="images/logoprod3.jpg"/>
+      </div>
+      <div id="TagContainer">
+        <img src="images/tagline.jpg"/>
+        <div id="SmallMenu">
+          <div class = "menu_element">
+            <a href="http://www.google.com">Login</a>
+          </div>
+          <div class = "menu_element">
+            <a href="http://www.google.com">Quick Order</a>
+          </div>
+          <div class = "menu_element">
+            <a href="http://www.google.com">Price List</a>
+          </div>
+          <div class = "menu_element" style="margin-right: 0px">
+            <a href="http://www.google.com">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

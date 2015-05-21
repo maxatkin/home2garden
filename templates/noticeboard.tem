@@ -1,0 +1,27 @@
+  <div id="NoticeBoard" style="width: 180px;">
+  <table border="0">
+  <tr>
+    <td height= "36px">
+    </td>
+  </tr>
+  <tr>
+    <td >
+  [xpinner]
+  </td>
+  </tr>
+</table>
+  <table border="0">
+   <tr>
+    <td height= "30px">
+    </td>
+  </tr>
+  <tr>
+    <td ><ul>
+      <li class="bluelist">Original Products</li>
+      <li class="bluelist">Contemporary Designs</li>
+      <li class="bluelist">100% Recycled Glass</li>
+      <li class="bluelist">2 Year Guarantee  </li>
+    </ul></td>
+  </tr>
+</table>
+

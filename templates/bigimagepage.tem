@@ -1,0 +1,46 @@
+<?php header("Expires: 0"); header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT"); header("cache-control: no-store, no-cache, must-revalidate"); header("Pragma: no-cache");?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<SCRIPT TYPE="text/javascript">
+<!--
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+   href=mylink;
+else
+   href=mylink.href;
+window.open(href, windowname, 'width=800,height=600,scrollbars=yes');
+return false;
+}
+//-->
+</SCRIPT>
+
+
+<head>
+<title>Welcome to the Home to Garden Company</title>
+<link rel="stylesheet" href="fouc.css" type="text/css" media="all">
+<style type="text/css" media="all">@import url("style4.css");</style>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="MSSmartTagsPreventParsing" content="TRUE">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="robots" content="all">
+<meta name="author" content="Max Atkin">
+<meta name="description" content="Home2garden web catalog"></head>
+
+<body>
+
+<div id="ContentContainerBigImage">
+  <div id="BigImageBorder">
+    <img src = "[image]"/>
+  </div>
+</div>
+
+
+</body>
+</html>
